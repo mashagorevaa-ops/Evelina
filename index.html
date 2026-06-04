@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UrbanChic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-home page-single">
+    <a class="skip-link" href="#home">Перейти к контенту</a>
+    <div class="scroll-progress" aria-hidden="true">
+      <span class="scroll-progress-bar"></span>
+    </div>
+    <div class="page-shell">
+      <main class="site-frame site-frame-single">
+        <header class="site-header">
+          <a class="brand" href="#home">UrbanChic</a>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav class="site-nav" aria-label="Основная навигация">
+            <a class="is-active" href="#home" data-nav-link="home">Главная</a>
+            <a href="#blog" data-nav-link="blog">Блог</a>
+            <a href="#profile" data-nav-link="profile">Профиль</a>
+            <a href="#favorites" data-nav-link="favorites">Избранное</a>
+            <a href="#footer" data-nav-link="support">Поддержка</a>
+            <a href="#cart" data-nav-link="cart">Корзина</a>
+          </nav>
+        </header>
+
+        <section class="hero-section section-panel" id="home" data-section="home">
+          <div class="hero">
+            <img src="assets/home-hero.JPG" alt="Монохромный fashion-баннер UrbanChic" />
+          </div>
+
+          <section class="about-section" id="about">
+            <div class="about-copy">
+              <div class="section-heading">
+                <span class="menu-mark" aria-hidden="true"></span>
+                <h1>О нас</h1>
+              </div>
+              <p class="about-lead">
+                UrbanChic — визуальный гид по современному гардеробу в эстетике
+                большого города.
+              </p>
+              <div class="about-text">
+                <p>
+                  Сайт посвящён современным тенденциям в одежде, обуви и аксессуарах.
+                  Он помогает пользователям формировать индивидуальный стиль,
+                  вдохновляться трендами и получать советы от профессионалов.
+                </p>
+                <p>
+                  Мы собрали в одном пространстве визуальные идеи, модные подборки и
+                  практичные решения для повседневного гардероба в эстетике городского
+                  минимализма.
+                </p>
+                <p>
+                  UrbanChic создан для тех, кто хочет чувствовать стиль, находить
+                  вдохновение и уверенно собирать свои образы без лишнего шума.
+                </p>
+              </div>
+              <div class="about-features" aria-label="Преимущества UrbanChic">
+                <article class="feature-pill">
+                  <span class="feature-label">Тренды</span>
+                  <p>Актуальные подборки одежды, обуви и аксессуаров.</p>
+                </article>
+                <article class="feature-pill">
+                  <span class="feature-label">Стиль</span>
+                  <p>Идеи образов для повседневности, вечера и fashion-съёмок.</p>
+                </article>
+                <article class="feature-pill">
+                  <span class="feature-label">Навигация</span>
+                  <p>Удобный переход от вдохновения к избранному и корзине.</p>
+                </article>
+              </div>
+            </div>
+            <div class="about-image">
+              <img src="assets/home-about-side.png" alt="Декоративная фактурная панель" />
+            </div>
+          </section>
+        </section>
+
+        <section class="section-panel page-blog single-section" id="blog" data-section="blog">
+          <div class="section-topline">
+            <span>Блог</span>
+          </div>
+          <section class="blog-section" id="specialists" data-section="specialists">
+            <h1 class="section-title">Блог</h1>
+            <div class="blog-grid">
+              <article class="feature-card">
+                <img src="assets/blog-look-1.png" alt="Тёмная одежда на рейле" />
+                <div class="feature-card-copy">
+                  <h2>Текстуры чёрного</h2>
+                  <p>Как собрать многослойный образ и сохранить лёгкость силуэта.</p>
+                </div>
+              </article>
+
+              <article class="blog-card">
+                <img src="assets/blog-look-2.png" alt="Обувь и аксессуары в студии" />
+                <div class="blog-card-copy">
+                  <h2>Акцент на обувь</h2>
+                  <p>Пара выразительных деталей способна задать весь характер образа.</p>
+                </div>
+              </article>
+
+              <article class="blog-card blog-card-wide">
+                <img src="assets/blog-look-3.png" alt="Три fashion-образа на подиуме" />
+                <div class="blog-card-copy">
+                  <h2>Подиум в городе</h2>
+                  <p>Смелый стайлинг, блеск фактур и уверенный городской ритм.</p>
+                </div>
+              </article>
+
+              <article class="blog-card">
+                <img src="assets/blog-look-4.png" alt="Интерьер бутика UrbanChic" />
+                <div class="blog-card-copy">
+                  <h2>Пространство бутика</h2>
+                  <p>Минималистичный интерьер, где вещи и свет работают на настроение.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+        </section>
+
+        <section class="section-panel page-profile single-section" id="profile" data-section="profile">
+          <div class="section-topline">
+            <span>Профиль</span>
+          </div>
+
+          <section class="profile-orders" id="orders">
+            <h1 class="section-title">Заказы</h1>
+            <div class="orders-outline">
+              <div class="orders-stack">
+                <article class="order-card order-card-light">
+                  <div class="order-card-head">
+                    <h2>Доставлен и получен</h2>
+                    <span aria-hidden="true">→</span>
+                  </div>
+                  <div
+                    class="order-card-body order-card-body-single product-preview product-card"
+                    data-product-card
+                    data-product-id="noir-line"
+                    data-title="Кожаный жакет Noir Line"
+                    data-size="M"
+                    data-price="21990"
+                    data-image="assets/order-model.JPG"
+                    data-description="Выразительный кожаный жакет в духе городского минимализма с акцентом на фактуру и чёткий силуэт."
+                    tabindex="0"
+                    role="button"
+                  >
+                    <img src="assets/order-model.JPG" alt="Модель в тёмном образе" />
+                    <div class="order-copy">
+                      <p>Кожаный жакет Noir Line</p>
+                    </div>
+                    <button class="pill-button" type="button">Оставить отзыв</button>
+                  </div>
+                </article>
+
+                <article class="order-card order-card-gradient">
+                  <div class="order-card-head">
+                    <h2>В пути</h2>
+                    <span aria-hidden="true">→</span>
+                  </div>
+                  <div class="order-card-body">
+                    <div
+                      class="order-item product-preview product-card"
+                      data-product-card
+                      data-product-id="silver-echo"
+                      data-title="Перчатки Midnight Grip"
+
+                      data-size="One size"
+                      data-price="6990"
+                      data-image="assets/order-bracelet.JPG"
+                      data-description="Чёрные перчатки с выразительным силуэтом и мягкой фактурой. Созданы для образов, где каждая деталь подчёркивает характер и уверенность."
+                      tabindex="0"
+                      role="button"
+                    >
+                      <img src="assets/order-bracelet.JPG" alt="Браслеты" />
+                      <p>Перчатки Midnight Grip</p>
+                    </div>
+                    <div
+                      class="order-item product-preview product-card"
+                      data-product-card
+                      data-product-id="slim-shadow"
+                      data-title="Юбка Velvet Eclipse"
+                      data-size="S"
+                      data-price="12490"
+                      data-image="assets/order-pants.JPG"
+                      data-description="Чёрная юбка с лаконичным кроем и плавными линиями. Подходит как для минималистичных образов, так и для смелых вечерних сочетаний."
+
+                      tabindex="0"
+                      role="button"
+                    >
+                      <img src="assets/order-pants.JPG" alt="Чёрные брюки" />
+                      <p>Юбка Velvet Eclipse</p>
+                    </div>
+                    <button class="pill-button" type="button">Отслеживание</button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="favorites-section" id="favorites" data-section="favorites">
+            <div class="favorites-heading">
+              <div>
+                <h1 class="section-title">Избранное</h1>
+                <p class="favorites-subtitle">
+                  Сохраняй вещи, которые хочешь примерить позже или вернуть в корзину.
+                </p>
+              </div>
+              <span class="favorites-count" id="favorites-count">0</span>
+            </div>
+            <p class="favorites-empty" id="favorites-empty">
+              Пока здесь пусто. Нажми на ☆ у товара, чтобы добавить его в избранное.
+            </p>
+            <div class="favorites-grid" id="favorites-grid" aria-live="polite"></div>
+          </section>
+
+          <section class="cart-section" id="cart" data-section="cart">
+            <div class="cart-heading">
+              <div>
+                <h1 class="section-title">Корзина</h1>
+                <label class="select-all">
+                  <input type="checkbox" id="select-all" checked />
+                  <span>Выбрать все</span>
+                </label>
+              </div>
+              <button class="cart-filter" type="button" aria-label="Фильтры">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+
+            <div class="cart-layout">
+              <div class="cart-items">
+                <article
+                  class="cart-item product-card"
+                  data-cart-item
+                  data-product-card
+                  data-product-id="stud-icon"
+                  data-title="Сумка Stud Icon"
+                  data-size="One size"
+                  data-price="18490"
+                  data-image="assets/cart-bag.JPG"
+                  data-description="Фактурная чёрная сумка с акцентной фурнитурой для образов в духе UrbanChic."
+                  tabindex="0"
+                  role="button"
+                >
+                  <label class="item-check">
+                    <input type="checkbox" checked />
+                    <span></span>
+                  </label>
+                  <img src="assets/cart-bag.JPG" alt="Чёрная сумка" />
+                  <div class="cart-item-copy">
+                    <h2>Сумка Stud Icon</h2>
+                    <p>Размер: One size</p>
+                    <strong>18 490 ₽</strong>
+                  </div>
+                  <div class="cart-actions">
+                    <button
+                      class="favorite-toggle"
+                      type="button"
+                      data-product-id="stud-icon"
+                      aria-label="Добавить в избранное"
+                    >
+                      ☆
+                    </button>
+                    <button
+                      class="remove-item"
+                      type="button"
+                      data-product-id="stud-icon"
+                      aria-label="Удалить"
+                    >
+                      🗑
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="cart-item product-card"
+                  data-cart-item
+                  data-product-card
+                  data-product-id="night-edge"
+                  data-title="Ботильоны Night Edge"
+                  data-size="38"
+                  data-price="12600"
+                  data-image="assets/cart-boot.JPG"
+                  data-description="Чёрные ботильоны с выразительной формой каблука и драматичным силуэтом."
+                  tabindex="0"
+                  role="button"
+                >
+                  <label class="item-check">
+                    <input type="checkbox" checked />
+                    <span></span>
+                  </label>
+                  <img src="assets/cart-boot.JPG" alt="Чёрный сапог" />
+                  <div class="cart-item-copy">
+                    <h2>Ботильоны Night Edge</h2>
+                    <p>Размер: 38</p>
+                    <strong>12 600 ₽</strong>
+                  </div>
+                  <div class="cart-actions">
+                    <button
+                      class="favorite-toggle"
+                      type="button"
+                      data-product-id="night-edge"
+                      aria-label="Добавить в избранное"
+                    >
+                      ☆
+                    </button>
+                    <button
+                      class="remove-item"
+                      type="button"
+                      data-product-id="night-edge"
+                      aria-label="Удалить"
+                    >
+                      🗑
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="cart-item product-card"
+                  data-cart-item
+                  data-product-card
+                  data-product-id="metal-grid"
+                  data-title="Топ Metal Veil"
+                  data-size="S"
+                  data-price="14990"
+                  data-image="assets/cart-skirt.JPG"
+                  data-description="Чёрный топ с металлическим настроением и архитектурным силуэтом. Создаёт выразительный акцент и идеально сочетается с монохромными комплектами."
+
+                  tabindex="0"
+                  role="button"
+                >
+                  <label class="item-check">
+                    <input type="checkbox" checked />
+                    <span></span>
+                  </label>
+                  <img src="assets/cart-skirt.JPG" alt="Чёрная юбка" />
+                  <div class="cart-item-copy">
+                    <h2>Топ Metal Veil</h2>
+                    <p>Размер: S</p>
+                    <strong>14 990 ₽</strong>
+                  </div>
+                  <div class="cart-actions">
+                    <button
+                      class="favorite-toggle"
+                      type="button"
+                      data-product-id="metal-grid"
+                      aria-label="Добавить в избранное"
+                    >
+                      ☆
+                    </button>
+                    <button
+                      class="remove-item"
+                      type="button"
+                      data-product-id="metal-grid"
+                      aria-label="Удалить"
+                    >
+                      🗑
+                    </button>
+                  </div>
+                </article>
+              </div>
+              <p class="cart-empty" id="cart-empty" hidden>
+                Корзина пока пуста. Добавь товары из избранного или открой карточку вещи.
+              </p>
+
+              <aside class="order-summary">
+                <h2>Сумма заказа</h2>
+                <p>
+                  Количество товаров
+                  <span id="cart-count">3</span>
+                </p>
+                <div class="summary-total">
+                  <span>Итого:</span>
+                  <strong id="cart-total">46 080 ₽</strong>
+                </div>
+                <button class="pill-button summary-button" type="button">К оформлению</button>
+              </aside>
+            </div>
+          </section>
+        </section>
+
+        <footer class="site-footer" id="footer" data-section="support">
+          <div class="footer-faq">FAQ</div>
+          <p class="footer-copy">
+            Сайт посвящён современным тенденциям в одежде, обуви и аксессуарах. Он
+            помогает пользователям формировать индивидуальный стиль, вдохновляться
+            трендами и получать советы от профессионалов.
+          </p>
+          <div class="footer-contact">
+            <h2>Контакты</h2>
+            <a href="tel:+79187530773">+7 (918) 753-07-73</a>
+          </div>
+        </footer>
+
+        <div class="product-modal" id="product-modal" aria-hidden="true">
+          <div class="product-modal-backdrop" data-modal-close></div>
+          <div
+            class="product-modal-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="product-modal-title"
+          >
+            <button class="product-modal-close" type="button" aria-label="Закрыть" data-modal-close>
+              ×
+            </button>
+            <div class="product-modal-layout">
+              <div class="product-modal-media">
+                <img id="modal-image" src="" alt="" />
+              </div>
+              <div class="product-modal-copy">
+                <p class="product-modal-kicker">UrbanChic Selection</p>
+                <h2 id="product-modal-title"></h2>
+                <p class="product-modal-description" id="modal-description"></p>
+                <dl class="product-modal-meta">
+                  <div>
+                    <dt>Размер</dt>
+                    <dd id="modal-size"></dd>
+                  </div>
+                  <div>
+                    <dt>Стоимость</dt>
+                    <dd id="modal-price"></dd>
+                  </div>
+                </dl>
+                <div class="product-modal-actions">
+                  <button class="pill-button" id="modal-favorite" type="button">В избранное</button>
+                  <button class="pill-button pill-button-light" id="modal-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <button class="back-to-top" type="button" aria-label="Наверх">Наверх</button>
+    <div class="toast-stack" id="toast-stack" aria-live="polite" aria-atomic="true"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
